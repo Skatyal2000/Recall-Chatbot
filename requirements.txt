@@ -1,0 +1,23 @@
+# Core LLM + RAG
+langchain>=0.2.0
+langchain-community>=0.0.24
+transformers>=4.39.0
+torch  # Required by transformers for model inference
+sentence-transformers  # For embeddings
+faiss-cpu  # Vector search
+
+# HuggingFace integration
+huggingface-hub
+accelerate  # Helps with model loading (e.g., device_map="auto")
+
+# UI + local app
+streamlit
+python-dotenv
+
+# Data
+pandas
+
+# Optional enhancements
+tqdm
+
+plotly
